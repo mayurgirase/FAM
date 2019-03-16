@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.qa.FAM.test.Company_setupTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="verify_checkbox"/>
+          <include name="close_browser"/>
+          <include name="Company_setupTest"/>
+          <include name="verify_dropdown"/>
+        </methods>
+      </class> <!-- com.qa.FAM.test.Company_setupTest -->
+      <class name="com.qa.FAM.test.SetupTest">
+        <methods>
+          <include name="verify_shiping_company"/>
+          <include name="Setup"/>
+          <include name="verify_logout"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.qa.FAM.test.SetupTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
